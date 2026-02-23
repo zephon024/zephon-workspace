@@ -1,0 +1,30 @@
+{
+  "groupId": "-1003822247739",
+  "jobs": [
+    {
+      "id": "f20202ca-320e-481b-ab5a-b662a3811c94",
+      "name": "faf-morning-brief",
+      "scheduleUtc": "30 4 * * 1-5",
+      "target": "telegram:group:-1003822247739:topic:5",
+      "description": "Weekday morning brief to Calendar topic"
+    },
+    {
+      "id": "86d850bd-c0c0-4669-8e2b-048c2c92118e",
+      "name": "faf-earnings-reminder",
+      "scheduleUtc": "0 6 * * *",
+      "target": "telegram:group:-1003822247739:topic:6",
+      "description": "Daily earnings reminder to Alerts topic"
+    },
+    {
+      "id": "e223395b-19e8-4211-b24b-960baa2033e9",
+      "name": "faf-weekly-pipeline-review",
+      "scheduleUtc": "0 5 * * 1",
+      "target": "telegram:group:-1003822247739:topic:2",
+      "description": "Weekly pipeline review to Pipeline topic"
+    }
+  ],
+  "notes": [
+    "Cron jobs are registered in gateway state (~/.openclaw/cron/jobs.json).",
+    "Manual cron run produced expected summary content, but announce delivery failed in this environment; review gateway cron delivery routing if needed."
+  ]
+}

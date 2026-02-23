@@ -1,0 +1,16 @@
+{
+  "channel": "telegram",
+  "groupId": "-1003822247739",
+  "configApplied": {
+    "requireMention": false,
+    "enabled": true,
+    "topics": {
+      "2": { "requireMention": false },
+      "3": { "requireMention": false },
+      "4": { "requireMention": false },
+      "5": { "requireMention": false },
+      "6": { "requireMention": false },
+      "7": { "requireMention": false }
+    }
+  }
+}

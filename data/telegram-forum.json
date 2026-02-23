@@ -1,0 +1,12 @@
+{
+  "groupId": "-1003822247739",
+  "groupName": "Team Semis",
+  "topics": {
+    "pipeline": { "id": 2, "label": "Pipeline", "purpose": "Task status, pipeline updates, kanban queries" },
+    "news": { "id": 3, "label": "News", "purpose": "Daily news briefings, breaking news alerts" },
+    "research": { "id": 4, "label": "Research", "purpose": "Deep analysis requests and output" },
+    "calendar": { "id": 5, "label": "Calendar", "purpose": "Earnings dates, meetings, deadlines" },
+    "alerts": { "id": 6, "label": "Alerts", "purpose": "Proactive notifications, reminders, flagged items" },
+    "general": { "id": 7, "label": "General", "purpose": "Catch-all, ad hoc questions, admin" }
+  }
+}
