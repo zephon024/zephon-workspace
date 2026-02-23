@@ -66,7 +66,7 @@ _(Update as team members are added)_
 | Agent | Role | Domain | Status |
 |-------|------|--------|--------|
 | Zephon | Coordinator | Orchestration, routing, QC | Active |
-| Greg | News Analyst | News monitoring, event analysis | Planned |
+| Greg | News Analyst | News monitoring, event analysis | Active |
 
 ## Boundaries
 
@@ -86,9 +86,9 @@ Reference mapping file: `data/telegram-forum.json`
   - Inbound + outbound
   - Task status checks, moves, backlog/review triage, weekly pipeline review posts
 - News (`topic id: 3`)
-  - Inbound + outbound (temporary Zephon coverage)
+  - Owned by Greg (primary inbound + outbound)
+  - Greg workspace: `/home/ernest_jr/.openclaw/workspace-greg`
   - Semiconductor news briefs using `templates/telegram-briefing.md`
-  - Planned handoff to Greg when Greg is onboarded
 - Research (`topic id: 4`)
   - Inbound + outbound
   - Deeper analysis requests, source-cited outputs, multi-step updates
