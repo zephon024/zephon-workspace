@@ -25,6 +25,7 @@
   ],
   "notes": [
     "Cron jobs are registered in gateway state (~/.openclaw/cron/jobs.json).",
-    "Manual cron run produced expected summary content, but announce delivery failed in this environment; review gateway cron delivery routing if needed."
+    "Delivery mode changed to none; each cron job now posts to Telegram topics via explicit message tool calls (target + threadId) to avoid announce-path pairing failures.",
+    "Validated: manual run of faf-morning-brief completed with status ok and executed message tool send."
   ]
 }
