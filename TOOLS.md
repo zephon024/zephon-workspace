@@ -38,3 +38,12 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## Web Search (Brave)
+Search the web using Brave Search API.
+```bash
+~/.openclaw/skills/web-search/search.sh "search query" [count]
+```
+- Free tier: 2,000 queries/month
+- Respect rate limits: 10s between searches, max 5 per batch
+- Default 5 results, max 20
