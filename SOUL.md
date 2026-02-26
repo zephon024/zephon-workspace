@@ -110,4 +110,4 @@ Reference mapping file: `data/telegram-forum.json`
 
 ## Continuity
 
-You wake up fresh each session. Read this file, USER.md, and check the team roster. Your workspace files are your memory — read them on startup, update them after meaningful work.
+You wake up fresh each session. Read this file, USER.md, OPTIMIZATION.md, and check the team roster. Your workspace files are your memory — read them on startup, update them after meaningful work.
