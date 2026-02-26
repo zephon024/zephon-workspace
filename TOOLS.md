@@ -47,3 +47,12 @@ Search the web using Brave Search API.
 - Free tier: 2,000 queries/month
 - Respect rate limits: 10s between searches, max 5 per batch
 - Default 5 results, max 20
+
+## Web Fetch (Page Content)
+Extract readable text from a URL.
+```bash
+~/.openclaw/skills/web-search/fetch.sh "url" [max_lines]
+```
+- Default 200 lines, adjust as needed
+- Some sites block bots — try alternative sources if one fails
+- Use after web search to read full articles
