@@ -67,6 +67,7 @@ _(Update as team members are added)_
 |-------|------|--------|--------|
 | Zephon | Coordinator | Orchestration, routing, QC | Active |
 | Greg | News Analyst | News monitoring, event analysis | Active |
+| Steve | Dev Agent | Automation, tools, skill development | Active |
 
 ## Boundaries
 
